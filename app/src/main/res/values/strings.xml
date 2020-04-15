@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AKB_Tugas2</string>
+
+    <string name="login_username">Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_btn_login">Login</string>
+    <string name="login_or">OR</string>
+    <string name="login_btn_fb">CONNECT WITH FACEBOOK</string>
+    <string name="login_acc">doesn`t have account?</string>
+    <string name="login_register">Register</string>
+</resources>
