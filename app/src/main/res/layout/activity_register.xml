@@ -94,26 +94,22 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:paddingTop="@dimen/dimen12"
-            android:gravity="center"
-             >
+            android:paddingLeft="@dimen/dimen24"
+            android:paddingRight="@dimen/dimen24"
+            android:gravity="center">
 
             <RadioButton
-
-                android:layout_marginRight="@dimen/dimen12"
+                android:id="@+id/rb_male"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="@dimen/dimen24"
                 android:layout_weight="50"
                 android:checked="true"
                 android:text="@string/prs" />
             <RadioButton
-
-                android:layout_marginLeft="@dimen/dimen12"
+                android:id="@+id/rb_female"
                 android:layout_weight="50"
-                android:layout_marginRight="@dimen/dimen24"
-                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
                 android:text="@string/org" />
         </RadioGroup>
 
