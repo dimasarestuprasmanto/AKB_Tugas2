@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingTop="@dimen/dimen10"
+
     android:paddingRight="@dimen/dimen26"
     android:paddingLeft="@dimen/dimen26"
-    android:background="@color/light_blue"
+    android:background="@color/bg_login"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -19,15 +19,15 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_setting_logo_red"
+            android:src="@drawable/ic_welcome_logo"
             android:contentDescription="Golongan Logo" />
 
         <EditText
+            android:layout_marginTop="@dimen/dimen10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/background"
             android:hint="@string/login_username"
-
             android:textSize="@dimen/font22"/>
 
         <EditText
@@ -40,6 +40,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="@dimen/dimen56"
+            android:layout_marginTop="@dimen/dimen10"
             android:text="@string/login_btn_login"
             android:textColor="@color/background"
             android:textSize="@dimen/font22"/>
@@ -48,7 +49,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"
-
+            android:layout_margin="@dimen/dimen10"
             android:text="@string/login_or"
             android:textColor="@color/background"
             android:textSize="@dimen/font22"/>

@@ -4,6 +4,148 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="@dimen/dimen26"
+    android:weightSum="100"
     tools:context=".register">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen10"
+            android:hint="@string/login_username"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/phone"/>
+
+
+                <RadioGroup
+                    android:id="@+id/radio_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:layout_above="@+id/view_below" >
+
+                        <RadioButton
+                            android:id="@+id/rb_male"
+                            android:layout_marginRight="@dimen/dimen12"
+                            android:layout_width="wrap_content"
+                            android:layout_marginLeft="@dimen/dimen24"
+                            android:layout_weight="50"
+                            android:checked="true"
+                            android:text="@string/male" />
+                        <RadioButton
+                            android:id="@+id/rb_female"
+                            android:layout_marginLeft="@dimen/dimen12"
+                            android:layout_weight="50"
+                            android:layout_marginRight="@dimen/dimen24"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Female" />
+                     </RadioGroup>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:layout_marginTop="@dimen/dimen12"
+                            android:padding="@dimen/dimen10"
+                            android:weightSum="100"
+                            android:orientation="horizontal">
+                            <Spinner
+                                android:id="@+id/darah"
+                                android:layout_weight="50"
+                                android:entries="@array/darah"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="@dimen/dimen12"/>
+
+                            <Spinner
+                                android:layout_height="wrap_content"
+                                android:layout_weight="50"
+                                android:entries="@array/rh"
+                                android:layout_marginRight="@dimen/dimen12"/>
+                        </LinearLayout>
+
+        <EditText
+            android:paddingTop="@dimen/dimen10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/login_password"/>
+        <EditText
+            android:layout_marginTop="@dimen/dimen5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/r_password"/>
+
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/dimen12"
+            android:gravity="center"
+            android:layout_above="@+id/view_below" >
+
+            <RadioButton
+
+                android:layout_marginRight="@dimen/dimen12"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="@dimen/dimen24"
+                android:layout_weight="50"
+                android:checked="true"
+                android:text="@string/prs" />
+            <RadioButton
+
+                android:layout_marginLeft="@dimen/dimen12"
+                android:layout_weight="50"
+                android:layout_marginRight="@dimen/dimen24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/org" />
+        </RadioGroup>
+
+        <Spinner
+            android:layout_marginTop="@dimen/dimen12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dimen12"/>
+
+        <EditText
+            android:layout_marginTop="@dimen/dimen12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/address"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/location"/>
+
+        <CheckBox
+            android:id="@+id/setuju"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/verifikasi"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login_register"/>
+
+
+    </LinearLayout>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

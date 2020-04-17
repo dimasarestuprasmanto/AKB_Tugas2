@@ -8,4 +8,29 @@
     <string name="login_btn_fb">CONNECT WITH FACEBOOK</string>
     <string name="login_acc">doesn`t have account?</string>
     <string name="login_register">Register</string>
+
+    <string name="email">Email</string>
+    <string name="phone">Phone Number</string>
+    <string name="male">Male</string>
+    <string name="Female">Female</string>
+    <string name="r_password">Retype Password</string>
+    <string name="address">Home Address</string>
+    <string name="location">Default Location</string>
+    <string name="prs">Personal</string>
+    <string name="org">Organization</string>
+    <string name="verifikasi">Agree with Terms and Conditions</string>
+
+    <string-array name="darah">
+        <item>Blood Type</item>
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+        <item>O</item>
+    </string-array>
+
+    <string-array name="rh">
+        <item>Reshus</item>
+        <item>Positif</item>
+        <item>Negatif</item>
+    </string-array>
 </resources>

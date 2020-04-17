@@ -11,4 +11,6 @@
     <color name="font_desc">#808284</color>
     <color name="background">#ffffff</color>
     <color name="bg_inv_frd">#f1f1f2</color>
+    <color name="bg_login">#40B4E7</color>
+
 </resources>
