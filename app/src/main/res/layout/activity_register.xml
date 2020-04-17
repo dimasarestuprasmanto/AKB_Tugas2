@@ -16,7 +16,6 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="@dimen/dimen10"
             android:hint="@string/login_username"/>
 
         <EditText
@@ -99,14 +98,14 @@
             android:gravity="center">
 
             <RadioButton
-                android:id="@+id/rb_male"
+                android:id="@+id/rb_prs"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="50"
                 android:checked="true"
                 android:text="@string/prs" />
             <RadioButton
-                android:id="@+id/rb_female"
+                android:id="@+id/rb_org"
                 android:layout_weight="50"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
