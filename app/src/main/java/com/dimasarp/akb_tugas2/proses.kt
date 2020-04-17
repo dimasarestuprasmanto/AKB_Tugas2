@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import kotlinx.android.synthetic.main.activity_proses.*
 
 class proses : AppCompatActivity() {
 
@@ -11,8 +12,14 @@ class proses : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_proses)
         val pindah = findViewById(R.id.vry) as Button
+        var intent = intent
+        val name = intent.getStringExtra("Nama")
+        val jdarah = intent.getStringExtra("Blood")
+
         pindah.setOnClickListener{
             val intent = Intent(this, verify::class.java)
+            intent.putExtra("Nama", name)
+            intent.putExtra("Blood", jdarah)
             startActivity(intent)
         }
     }

@@ -24,6 +24,9 @@ class MainActivity : AppCompatActivity() {
 Tanggal Pengerjaan 15 april 2020
 Deskripsi : Membuat Login
 
+Tanggal Pengerjaan 17 april 2020
+Deskripsi : Membuat registrasi,almost,verifikasi,home membuat circel foto,membuat validasi registrasi, mengambil isi username dan blood type untuk dimasukkan ke home user
+
 NIM = 10117123
 NAMA = Dimas Arestu Prasmanto
 Kelas = IF4

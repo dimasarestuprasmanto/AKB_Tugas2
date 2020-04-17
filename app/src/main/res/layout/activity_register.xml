@@ -15,6 +15,7 @@
         android:orientation="vertical">
 
         <EditText
+            android:id="@+id/username"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/login_username"/>
@@ -65,7 +66,7 @@
                             android:weightSum="100"
                             android:orientation="horizontal">
                             <Spinner
-                                android:id="@+id/darah"
+                                android:id="@+id/darah_user"
                                 android:layout_weight="50"
                                 android:entries="@array/darah"
                                 android:layout_width="wrap_content"
@@ -146,7 +147,7 @@
             android:id="@+id/pds"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/button_garis_putih"
+            android:background="@drawable/button_garis_lightblue"
             android:text="@string/login_register"/>
 
 

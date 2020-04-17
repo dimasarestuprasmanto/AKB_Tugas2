@@ -59,6 +59,8 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="@dimen/dimen56"
+            android:padding="@dimen/dimen15"
+            android:drawableStart="@drawable/ic_welcome_fb_login"
             android:background="@drawable/button_garis_putih"
             android:text="@string/login_btn_fb"
             android:textColor="@color/background"
