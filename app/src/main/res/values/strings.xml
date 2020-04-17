@@ -7,7 +7,7 @@
     <string name="login_or">OR</string>
     <string name="login_btn_fb">CONNECT WITH FACEBOOK</string>
     <string name="login_acc">doesn`t have account?</string>
-    <string name="login_register">Register</string>
+    <string name="login_register"><b>Register</b></string>
 
     <string name="email">Email</string>
     <string name="phone">Phone Number</string>
@@ -29,6 +29,70 @@
     </string-array>
 
     <string-array name="rh">
+        <item>Reshus</item>
+        <item>Positif</item>
+        <item>Negatif</item>
+    </string-array>
+
+    <string-array name="job">
+        <item>Job A</item>
+        <item>Job B</item>
+        <item>Unknow</item>
+    </string-array>
+
+    <string name="almst">Almost There</string>
+    <string name="kata">Thanks you for registering with us. One more \n step, you need to check your email \n to active your account</string>
+    <string name="vry">VERIFY</string>
+
+    <string name="verify_title">Verify Your Account</string>
+    <string name="verify_email">We have send verification code to your email</string>
+    <string name="verify_code">enter verification code here...</string>
+    <string name="verify_btn">SEND</string>
+    <string name="verify_resend">doesn`t get the code? Resend</string>
+
+    <string name="nama">Dimas Arestu Prasmanto</string>
+    <string name="blood">Blood Type : O</string>
+    <string name="usr_75">75 \n BLOOD GIVE</string>
+    <string name="usr_100">100 \n BLOOD RECIVED</string>
+    <string name="usr_330">330 \n THANKS</string>
+    <string name="usr_search">Search Donor</string>
+    <string name="usr_need">Blood Need</string>
+    <string name="usr_searchtxt">Search donor near you</string>
+    <string name="usr_needtxt">4 User need blood</string>
+    <string name="usr_msg">Message</string>
+    <string name="usr_history">Donor History</string>
+    <string name="usr_msgtxt">5 New Messages</string>
+    <string name="usr_historytxt">5 Gives, 2 Recived</string>
+
+
+
+
+
+
+    <string name="juma">75</string>
+    <string name="bloodgive">BLOOD GIVE</string>
+    <string name="tus">100</string>
+    <string name="bRece">BLOOD RECEIVED</string>
+    <string name="gagaluh">330</string>
+    <string name="Thank">THANKS</string>
+    <string name="sd"><b>Search Donor</b></string>
+    <string name="sdny">Search donor near you</string>
+    <string name="bn"><b>Blood Needed</b></string>
+    <string name="users">4 Users need blood</string>
+    <string name="message"><b>Message</b></string>
+    <string name="nm">5 New Messages</string>
+    <string name="dh"><b>Donor History</b></string>
+    <string name="gr">5 Gives, 2 Received</string>
+    <string name="register_btn">doesn\'t have account? <b>Register</b> </string>
+    <string name="isi_username">isi username</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="donear">Search donor near you</string>
+    <string name="login">Login</string>
+    <string name="connect_with_facebook">CONNECT WITH FACEBOOK</string>
+
+
+    <string-array name="reshus">
         <item>Reshus</item>
         <item>Positif</item>
         <item>Negatif</item>

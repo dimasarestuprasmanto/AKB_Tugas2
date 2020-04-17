@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     android:paddingRight="@dimen/dimen26"
     android:paddingLeft="@dimen/dimen26"
     android:background="@color/bg_login"
@@ -28,12 +27,14 @@
             android:layout_height="wrap_content"
             android:textColor="@color/background"
             android:hint="@string/login_username"
+            android:textColorHint="@color/background"
             android:textSize="@dimen/font22"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/background"
+            android:textColorHint="@color/background"
             android:hint="@string/login_password"
             android:textSize="@dimen/font22"/>
 
@@ -43,6 +44,7 @@
             android:layout_marginTop="@dimen/dimen10"
             android:text="@string/login_btn_login"
             android:textColor="@color/background"
+            android:background="@drawable/button_garis_putih"
             android:textSize="@dimen/font22"/>
 
         <TextView
@@ -57,7 +59,9 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="@dimen/dimen56"
+            android:background="@drawable/button_garis_putih"
             android:text="@string/login_btn_fb"
+            android:textColor="@color/background"
             android:textSize="@dimen/font22"/>
 
         <LinearLayout

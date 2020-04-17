@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimary">#ffffff</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
 
     <color name="light_blue">#43b4a6</color>
     <color name="shadow_header">#d1d2d4</color>
     <color name="separator">#939597</color>
-    <color name="font_title">#404041</color>
+
     <color name="font_desc">#808284</color>
     <color name="background">#ffffff</color>
     <color name="bg_inv_frd">#f1f1f2</color>
     <color name="bg_login">#40B4E7</color>
+
+    <color name="backgroundInviteFriend">#D81B60</color>
+
+    <color name="Black">#000000</color>
+    <color name="lightBlue">#43b3e6</color>
+    <color name="shadowHeader">#d1d2d4</color>
+    <color name="backg">#4ba6eb</color>
+    <color name="fontTitle">#404041</color>
 
 </resources>

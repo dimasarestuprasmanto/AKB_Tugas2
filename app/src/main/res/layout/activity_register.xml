@@ -4,9 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="@dimen/dimen26"
+    android:padding="@dimen/dimen20"
     android:weightSum="100"
     tools:context=".register">
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -42,12 +43,14 @@
                             android:id="@+id/rb_male"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:backgroundTint="@color/lightBlue"
                             android:layout_weight="50"
                             android:checked="true"
                             android:text="@string/male" />
                         <RadioButton
                             android:id="@+id/rb_female"
                             android:layout_weight="50"
+                            android:backgroundTint="@color/lightBlue"
                             android:layout_height="wrap_content"
                             android:layout_width="wrap_content"
                             android:text="@string/Female" />
@@ -102,11 +105,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="50"
+                android:backgroundTint="@color/lightBlue"
                 android:checked="true"
                 android:text="@string/prs" />
             <RadioButton
                 android:id="@+id/rb_org"
                 android:layout_weight="50"
+                android:backgroundTint="@color/lightBlue"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:text="@string/org" />
@@ -114,6 +119,7 @@
 
         <Spinner
             android:layout_marginTop="@dimen/dimen12"
+            android:entries="@array/job"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/dimen12"/>
@@ -127,16 +133,20 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_blood_needed_location"
             android:hint="@string/location"/>
 
         <CheckBox
             android:id="@+id/setuju"
             android:layout_width="match_parent"
+            android:buttonTint="@color/lightBlue"
             android:layout_height="wrap_content"
             android:text="@string/verifikasi"/>
         <Button
+            android:id="@+id/pds"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/button_garis_putih"
             android:text="@string/login_register"/>
 
 
