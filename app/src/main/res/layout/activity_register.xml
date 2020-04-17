@@ -35,24 +35,22 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:gravity="center"
-                    android:layout_above="@+id/view_below" >
+                    android:paddingLeft="@dimen/dimen24"
+                    android:paddingRight="@dimen/dimen24"
+                    android:gravity="center">
 
                         <RadioButton
                             android:id="@+id/rb_male"
-                            android:layout_marginRight="@dimen/dimen12"
                             android:layout_width="wrap_content"
-                            android:layout_marginLeft="@dimen/dimen24"
+                            android:layout_height="wrap_content"
                             android:layout_weight="50"
                             android:checked="true"
                             android:text="@string/male" />
                         <RadioButton
                             android:id="@+id/rb_female"
-                            android:layout_marginLeft="@dimen/dimen12"
                             android:layout_weight="50"
-                            android:layout_marginRight="@dimen/dimen24"
-                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
                             android:text="@string/Female" />
                      </RadioGroup>
 
@@ -68,11 +66,13 @@
                                 android:id="@+id/darah"
                                 android:layout_weight="50"
                                 android:entries="@array/darah"
+                                android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginLeft="@dimen/dimen12"/>
 
                             <Spinner
                                 android:layout_height="wrap_content"
+                                android:layout_width="wrap_content"
                                 android:layout_weight="50"
                                 android:entries="@array/rh"
                                 android:layout_marginRight="@dimen/dimen12"/>
@@ -90,18 +90,19 @@
             android:hint="@string/r_password"/>
 
         <RadioGroup
-            android:id="@+id/radio_group"
+            android:id="@+id/radio_group1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:paddingTop="@dimen/dimen12"
             android:gravity="center"
-            android:layout_above="@+id/view_below" >
+             >
 
             <RadioButton
 
                 android:layout_marginRight="@dimen/dimen12"
                 android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/dimen24"
                 android:layout_weight="50"
                 android:checked="true"

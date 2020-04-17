@@ -72,7 +72,7 @@
                 android:textSize="@dimen/font22"/>
             <TextView
                 android:id="@+id/register"
-                android:onClick="onClick"
+
                 android:clickable="true"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
