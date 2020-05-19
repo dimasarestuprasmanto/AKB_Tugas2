@@ -83,7 +83,7 @@
     <string name="nm">5 New Messages</string>
     <string name="dh"><b>Donor History</b></string>
     <string name="gr">5 Gives, 2 Received</string>
-    <string name="register_btn">doesn\'t have account? <b>Register</b> </string>
+    <string name="register_btn">doesn\'t have account? <b>REGISTER</b> </string>
     <string name="isi_username">isi username</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
